@@ -1,0 +1,241 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+/*1 БЛОК*/
+
+.header {
+   background: linear-gradient(45deg, #161616 56.42%, #123c8e 100%);
+   padding-bottom: 48px;
+}
+
+.main_title {
+   font-family: "Museo Sans Cyrl", sans-serif;
+   font-weight: 700;
+   font-size: 56px;
+   color: #fff;
+}
+
+.main_card {
+   border: 1px solid rgba(255, 255, 255, 0.2);
+   border-radius: 10px;
+   padding: 32px;
+   width: 382px;
+   height: 389px;
+   backdrop-filter: blur(24px);
+   background: rgba(255, 255, 255, 0.1);
+}
+
+.main_card_title .cost_text {
+   float: left;
+   margin-right: 5px;
+   font-family: "Museo Sans Cyrl", sans-serif;
+   font-weight: 600;
+   font-size: 16px;
+   color: #fff;
+}
+
+.cost {
+   font-family: "Museo Sans Cyrl", sans-serif;
+   font-weight: 600;
+   font-size: 30px;
+   color: #fff;
+   margin: 5px 0 25px 0;
+}
+
+.list_title {
+   font-family: "Museo Sans Cyrl", sans-serif;
+   font-weight: 600;
+   font-size: 16px;
+   color: #fff;
+   margin-bottom: 16px;
+}
+
+ul {
+   list-style-type: none;
+   padding: 0;
+}
+
+li:before {
+   content: "• ";
+}
+
+.main_card li {
+   font-family: "Museo Sans Cyrl", sans-serif;
+   font-weight: 300;
+   font-size: 16px;
+   color: #fff;
+   margin-bottom: 10px;
+}
+
+.list {
+   margin-bottom: 50px;
+}
+
+.button {
+   border-radius: 10px;
+   padding: 14px 90px;
+   background: #2463dd;
+   text-align: center;
+   text-decoration: none;
+   font-family: "Museo Sans Cyrl", sans-serif;
+   font-weight: 300;
+   font-size: 16px;
+   color: #fff;
+
+}
+
+.button:hover {
+   background: #85bff2;
+   tansition: all .3s linear;
+}
+
+
+/*2 БЛОК*/
+
+.section {
+   background: linear-gradient(84deg, #fff 41.98%, #bbc5ea 100%);
+}
+
+.container {
+   display: grid;
+   grid-template-columns: 55% 45%;
+   padding-top: 96px;
+   padding-bottom: 96px;
+}
+
+.left {
+   position: sticky;
+   float: right;
+   height: 33px;
+
+}
+
+.block {
+   border: 1px solid rgba(45, 71, 122, 0.2);
+   border-radius: 20px;
+   padding: 32px;
+   background: #fff;
+   margin-bottom: 20px;
+   height: 211px;
+}
+
+.block_title {
+   font-family: "Museo Sans Cyrl", sans-serif;
+   font-weight: 600;
+   font-size: 20px;
+   color: #272727;
+   margin-bottom: 8px;
+}
+
+.block li {
+   font-family: "Museo Sans Cyrl", sans-serif;
+   font-weight: 300;
+   font-size: 16px;
+   color: #272727;
+   margin-top: 5px;
+}
+
+.guarantee {
+   box-shadow: 0 4px 15px -2px rgba(9, 27, 64, 0.1);
+   background: #2463dd;
+}
+
+.guarantee li, .guarantee_title {
+   color: #fff;  
+}
+
+
+/*3 БЛОК*/
+
+.inform {
+   border-radius: 20px;
+   background: linear-gradient(70deg, #161616 49.48%, #123c8e 100%);
+   width: 88%;
+   margin: 0 auto 96px;
+   padding: 48px 52px 48px 48px;
+}
+
+.title_inform {
+   font-family: "Museo Sans Cyrl", sans-serif;
+   font-weight: 600;
+   font-size: 30px;
+   color: #fff;
+   margin-bottom: 32px;
+}
+
+.site_structures {
+   display: flex;
+   justify-content: space-between;
+}
+
+.card {
+   border: 1px solid rgba(255, 255, 255, 0.2);
+   border-radius: 20px;
+   backdrop-filter: blur(24px);
+   background: rgba(255, 255, 255, 0.1);
+   padding: 40px 97px;
+}
+
+.card_title {
+   font-family: "Museo Sans Cyrl", sans-serif;
+   font-weight: 600;
+   font-size: 20px;
+   text-align: center;
+   color: #fff;
+   margin-bottom: 27px;
+}
+
+.card_title p {
+   margin-bottom: 4px;
+}
+
+.card_list {
+   font-family: "Museo Sans Cyrl", sans-serif;
+   font-weight: 600;
+   font-size: 16px;
+   text-align: center;
+   color: #fff;
+}
+
+.card_list li {
+   border: 1px solid rgba(255, 255, 255, 0.4);
+   border-radius: 10px;
+   padding: 10px 12px;
+   background: rgba(255, 255, 255, 0.2);
+   margin-bottom: 10px;
+   list-style-type: none;
+}
+
+.accent {
+   color: #272727;
+}
+
+.accent li{
+   background: #fff;
+}
+
+/*4 БЛОК*/
+
+.services {
+   width: 93%;
+   margin: 0 auto 96px;
+}
+
+.all_cards {
+   display: grid;
+   grid-template-columns: 60% 40%;
+}
+
+.left_cards {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-gap: 10px; /* регулируйте размер промежутка между блоками */
+}
+
+.right_cards {
+   border-radius: 20px;
+   background: #2463dd;
+   padding: 32px;
+}
