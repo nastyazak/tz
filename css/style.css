@@ -279,10 +279,61 @@ li:before {
    color: #272727;
 }
 
+/*Слайдер*/
 .slider {
    display: flex;
    justify-content: space-between;
+   position: relative;
 }
+
+.slick-slider{
+   min-width: 0;
+}
+
+/*Ограничивающая оболочка*/
+.slick-list {
+   overflow: hidden;
+}
+
+/*Лента слайдов*/
+.slick-track{
+   display: flex;
+   align-items: flex-start;
+}
+
+/*Стрелки*/
+.slider .slick-arrow{
+   position: absolute;
+   font-size: 0;
+   width: 15px;
+   height: 23px;
+   margin: -100px 175px 0px 1150px;
+}
+
+.slick-arrow.slick-prev{
+   left: -20px;
+   background: url('../img/L.svg') 0 0 / 100% no-repeat;
+   border: none;
+   cursor: pointer;
+}
+
+.slick-arrow.slick-next{
+   left: 35px;
+   background: url('../img/R.svg') 0 0 / 100% no-repeat;
+   border: none;
+   cursor: pointer;
+}
+
+.slick-arrow.slick-disabled{
+   opacity: 0.2;
+}
+
+.slide img{
+   max-width: 100%;
+   padding-right: 21px;
+}
+
+
 
 /*7 БЛОК*/
 
@@ -306,6 +357,32 @@ li:before {
    font-weight: 300;
    font-size: 16px;
    color: #fff;
+   margin-bottom: 32px;
+   opacity: 0.8;
+}
+
+.form {
+   width: 100%;
+   margin-bottom: 9px;
+}
+
+.input {
+   border: 1px solid #fff;
+   border-radius: 10px;
+   padding: 12px 16px;
+   background-color: transparent;
+   margin-right: 16px;
+}
+
+.btn {
+   border-radius: 10px;
+   padding: 13px 95px;
+   background: #2463dd;
+   font-family: "Museo Sans Cyrl", sans-serif;
+   font-weight: 300;
+   font-size: 16px;
+   color: #fff;
+   text-decoration: none;
 }
 
 .footer_text {
